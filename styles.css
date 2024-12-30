@@ -1,0 +1,50 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('https://t3.ftcdn.net/jpg/04/41/16/10/360_F_441161038_In6RzFNZQTcanHB5yVAS2EOObIyiyfp3.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 200%;
+}
+
+/* Header */
+header {
+    background-color: #c2a5fc;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    background-color: rgb(30, 30, 214);
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Navigation Links Hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
